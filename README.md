@@ -9,17 +9,17 @@ facilitating informed investment decisions and market analysis.
 
 
 **Technologies & IDE Used:**
--JavaFx
--Java
--MySQL
--Eclipse
+- JavaFx
+- Java
+- MySQL
+- Eclipse
 
 **Requirements**
 
-Operating System: Compatible with Windows 10, macOS, or Linux distributions.
-Java Development Kit (JDK): Version 17 or higher installed on the system.
-JavaFX: JavaFX libraries and runtime environment integrated with the IDE for building and running JavaFX applications.
-Database: MySQL database server for storing and retrieving stock market data.
+- Operating System: Compatible with Windows 10, macOS, or Linux distributions.
+- Java Development Kit (JDK): Version 17 or higher installed on the system.
+- JavaFX: JavaFX libraries and runtime environment integrated with the IDE for building and running JavaFX applications.
+- Database: MySQL database server for storing and retrieving stock market data.
 
 ## Installation
 
@@ -30,18 +30,18 @@ Database: MySQL database server for storing and retrieving stock market data.
  
 ### **For Eclipse:**
  
-**Install JavaFX SDK:**
+- **Install JavaFX SDK:**
    - Download the JavaFX SDK from the official website: https://gluonhq.com/products/javafx/.
  
-**Add JavaFX to the Build Path:**
+- **Add JavaFX to the Build Path:**
    - Right-click on your project in the Project Explorer.
    - Go to **preferences > java > Build Path > User Libraries>**
    - Create New Library javafx_17 and add jar files from Navigate to the `lib` directory of the unzipped JavaFX SDK (e.g., `C:\javafx-sdk-17\lib`) and select all the JAR files.
  
 3. **Import Project to IDE**
     - File -> Import projects from File System -> Browse and Select the extracted Demo and Stock folder -> Finish.
-    - Right click on Stock -> Build path -> Configure Build Path -> Remove the jar files from the Classpath and Add the jar from StockLib folder to Classpath.
-    - Right click on Demo -> Build path -> Configure Build Path -> Remove the jar files from the Classpath and Modulepath and Add the libraries from DemoLib folder.
+    - Right click on Stock -> Build path -> Configure Build Path -> Remove the jar files from the Class path and Add the jar from StockLib folder to Class path.
+    - Right click on Demo -> Build path -> Configure Build Path -> Remove the jar files from the Class path and Module path and Add the libraries from DemoLib folder.
 
 ## Run the Project
 
