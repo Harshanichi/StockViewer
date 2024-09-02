@@ -16,10 +16,10 @@ facilitating informed investment decisions and market analysis.
 
 **Requirements**
 
-- *Operating System:* Compatible with Windows 10, macOS, or Linux distributions.
-- *Java Development Kit (JDK):* Version 17 or higher installed on the system.
-- *JavaFX:* JavaFX libraries and runtime environment integrated with the IDE for building and running JavaFX applications.
-- *Database:* MySQL database server for storing and retrieving stock market data.
+- **Operating System:** Compatible with Windows 10, macOS, or Linux distributions.
+- **Java Development Kit (JDK):** Version 17 or higher installed on the system.
+- **JavaFX:** JavaFX libraries and runtime environment integrated with the IDE for building and running JavaFX applications.
+- **Database:** MySQL database server for storing and retrieving stock market data.
 
 ## Installation
 
