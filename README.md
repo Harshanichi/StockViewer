@@ -24,6 +24,7 @@ facilitating informed investment decisions and market analysis.
 ## Installation
 
 1. **Download and Extract Data:**
+   - **Download and Extract Libraries from the Release: Libraries for Demo and Lib** 
     
 2. **JavaFX Installation and Configuration:**
    - To add the JavaFX module path to your project, follow these steps depending on the IDE you are using:
