@@ -1,6 +1,6 @@
-#Stock Viewer
+# Stock Viewer
 
-##Overview 
+## Overview 
 
 The Stock Viewer application is a versatile tool designed to provide users with
 comprehensive insights into stock market data. Developed with JavaFX, this application
@@ -21,7 +21,7 @@ Java Development Kit (JDK): Version 17 or higher installed on the system.
 JavaFX: JavaFX libraries and runtime environment integrated with the IDE for building and running JavaFX applications.
 Database: MySQL database server for storing and retrieving stock market data.
 
-##Installation
+## Installation
 
 1. **Download and Extract Data:**
     
@@ -43,8 +43,7 @@ Database: MySQL database server for storing and retrieving stock market data.
     - Right click on Stock -> Build path -> Configure Build Path -> Remove the jar files from the Classpath and Add the jar from StockLib folder to Classpath.
     - Right click on Demo -> Build path -> Configure Build Path -> Remove the jar files from the Classpath and Modulepath and Add the libraries from DemoLib folder.
 
-##Run the Project
-
+## Run the Project
 
 1. First run the StocksRunner.java from the Stock project.
    - For smoother experience before running it set the date parameter in DDMMYYYY format once.
