@@ -41,6 +41,7 @@ facilitating informed investment decisions and market analysis.
  
 3. **Import Project to IDE**
     - File -> Import projects from File System -> Browse and Select the extracted Demo and Stock folder -> Finish.
+    - **Download the libraries from the release.**
     - Right click on Stock -> Build path -> Configure Build Path -> Remove the jar files from the Class path and Add the jar from StockLib folder to Class path.
     - Right click on Demo -> Build path -> Configure Build Path -> Remove the jar files from the Class path and Module path and Add the libraries from DemoLib folder.
 
