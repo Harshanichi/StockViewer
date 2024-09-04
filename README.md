@@ -46,22 +46,21 @@ facilitating informed investment decisions and market analysis.
 
 ## Run the Project
 
-1. First run the StocksRunner.java from the Stock project.
-   - For smoother experience before running it set the date parameter in DDMMYYYY format once.
-     ->Right click on Stock -> Run As -> Run Configurations -> In Params tab, Set parameter and click on Run.
-   - Now remove the date parameter and run it once again.
+1. **Configure Project Dependencies:**
 
-2. In MySQL
-   - Create a Database and tables, Copy the below queries.
-    ```sql
-    Create database userdetails
-    ```
-   - In userdetails database, create credentials and feedback tables.
-     ```sql
-     Create table credentials( uid int auto_increment not null, name varchar(10), password varchar(20), phone varchar(20), PRIMARY KEY(uid));
-     ```
-     ```sql
-     Create table feedback(name varchar(10),email varchar(50), phone varchar(20), comments varchar(255));
-     ```
+    - Right-click on the Demo project.
+    - Go to Build Path > Configure Build Path > Projects.
+    - Click on Add and select the Stock project to add it as a dependency to the Demo project.
 
-3. Now run the Main.java from Demo. Register user before login.
+2. **Run the StockRunner.java:**
+
+    - First, run the StockRunner.java file from the Stock project.
+    - For a smoother experience, set the date parameter in DDMMYYYY format:
+      - Right-click on the Stock project.
+      - Go to Run As > Run Configurations.
+      - In the Params tab, set the date parameter and click Run.
+      - After the first run, remove the date parameter and run it again.
+
+3. **Run the Main.java:**
+
+    - Finally, run the Main.java file from the Demo project.
