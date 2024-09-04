@@ -59,8 +59,8 @@ facilitating informed investment decisions and market analysis.
       - Right-click on the Stock project.
       - Go to Run As > Run Configurations.
       - In the Params tab, set the date parameter and click Run.
-      - After the first run, remove the date parameter and run it again.
+      - After the first run, remove the date parameter from the Parms tab(If you need data of any particular date specify date and run it).
 
 3. **Run the Main.java:**
 
-    - Finally, run the Main.java file from the Demo project.
+    - Finally, run the Main.java file from the Demo project(Make sure you removed the date parameter from Stock project).
